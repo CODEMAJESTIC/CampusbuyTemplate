@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CampusBuy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">CampusBuy</h1>
+            <nav id="navLinks" class="navLinks">
+                <a href="javascript:void(0)" class="hide-desktop" id="menu" class="menu">&#9776;</a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">&times;</li>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="post-ad.html">Post Ad</a></li>
+                    <li><a href="#categorySection">Look Up Ad</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li class="search"><a href="search.html"><img src="assets/search.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="containerBody">
+            <div class="left">
+                <h1>uniben + Shopping = campusbuy</h1>
+                <p>Buying and selling for students made easy</p>
+                <a class="post" href="post-ad.html">Post Ads</a>
+            </div>
+            <div class="right">
+                <img src="assets/heroimage.svg">
+            </div>
+        </div>
+        <a href="#categorySection"><img class="arrowDown hide-mobile" src="assets/chevron_down.svg" alt=""></a>
+    </div>
+    <div id="categorySection" class="categorySection">
+        <h2>Categories</h2>
+        <div class="categories">
+            <div class="categoriesBox gadgets">
+                <img src="assets/gadgets.svg">
+                <h3>Gadgets</h3>
+                <p>Phones, Laptops, Memory Cards, etc.</p>
+                <a class="post" href="categories.html">View Ad</a>
+            </div>
+            <div class="categoriesBox accommodation">
+                <img src="assets/accomodation.svg">
+                <h3>Accommodation</h3>
+                <p>Self Contained, R&P, Flats, etc.</p>
+                <a class="post" href="categories.html">View Ad</a>
+            </div>
+            <div class="categoriesBox events">
+                <img src="assets/events.svg">
+                <h3>Events</h3>
+                <p>Church Programs, Music Shows, Comedy Shows, etc.</p>
+                <a class="post" href="categories.html">View Ad</a>
+            </div>
+            <div class="categoriesBox clothes">
+                <img src="assets/clothes.svg">
+                <h3>Clothing & Accessories</h3>
+                <p>Shoes, Female Clothing, Bags, etc.</p>
+                <a class="post" href="categories.html">View Ad</a>
+            </div>
+            <div class="categoriesBox services">
+                <img src="assets/services.svg">
+                <h3>Services</h3>
+                <p>Catering Service, MC's, Rentals, etc.</p>
+                <a class="post" href="categories.html">View Ad</a>
+            </div>
+            <div class="categoriesBox random">
+                <img src="assets/random.svg">
+                <h3>Others</h3>
+                <p>Random Ads</p>
+                <a class="post" href="categories.html">View Ad</a>
+            </div>
+        </div>
+    </div>
+    <div class="contactUs" id="contact">
+    	<h2>We would love to hear from you</h2>
+    	<form action="#">
+    		<label for="fname">First Name</label>
+    		<input type="text" id="fname" name="firstname" placeholder="">
+    		<label for="lname">Last Name</label>
+    		<input type="text" id="lname" name="lastname" placeholder="">
+    		<label for="subject">Enter Message</label>
+    		<textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+    		<input type="submit" value="Submit">
+    	</form>
+    </div>
+    <div class="footer">
+        <div class="footerSection">
+            <div class="about">
+                <h3>About</h3>
+                <p>Campus buy is a platform made for students by students. It seeks to improve business amongst students with a very simplistic approach; Connecting BUYERS to SELLERS.</p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p><img class="nav-icons" src="assets/location.svg"> Hall 3, Hall 4 or any LT with Electricity, UniBen</p>
+                <p><img class="nav-icons" src="assets/contact.svg"> 08138931117</p>
+                <p><img class="nav-icons" src="assets/contact.svg"> <a href="mailto:campusbuyinfo@gmail.com">campusbuyinfo@gmail.com</a></p>
+            </div>
+            <div class="legal">
+                <h3>Legal</h3>
+                <li><a href="javascript:void(0)">Terms</a></li>
+                <li><a href="javascript:void(0)">Legal</a></li>
+                <li><a href="javascript:void(0)">Privacy</a></li>
+                <li><a href="javascript:void(0)">License</a></li>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

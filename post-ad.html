@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CampusBuy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">CampusBuy</h1>
+            <nav id="navLinks" class="navLinks">
+                <a href="javascript:void(0)" class="hide-desktop" id="menu" class="menu">&#9776;</a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">&times;</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="post-ad.html">Post Ad</a></li>
+                    <li><a href="index.html#categorySection">Look Up Ad</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li class="search"><a href="search.html"><img src="assets/search.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="containerBody">
+            <div class="left">
+                <h1>post ads</h1>
+                <p>Fill in the form below to post an advert</p>
+            </div>
+            <form action="#">
+                <label for="fname">Name of Vendor</label>
+                <input type="text" id="fname" name="firstname" placeholder="">
+                <label for="lname">Item</label>
+                <input type="text" id="lname" name="lastname" placeholder="">
+                <label for="lname">Price <span class="smallText">(Subject to negotiation with buyer)</span></label>
+                <input type="text" id="lname" name="lastname" placeholder="">
+                <label>Enter Item Category</label>
+                <select>
+                    <option>Select Category</option>
+                    <option>Gadgets</option>
+                    <option>Accommodation</option>
+                    <option>Events</option>
+                    <option>Clothing & Accessories</option>
+                    <option>Services</option>
+                    <option>Others</option>
+                </select>
+                <label for="subject">Enter Description</label>
+                <textarea name="subject"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footerSection">
+            <div class="about">
+                <h3>About</h3>
+                <p>Campus buy is a platform made for students by students. It seeks to improve business amongst students with a very simplistic approach; Connecting BUYERS to SELLERS.</p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p><img class="nav-icons" src="assets/location.svg"> Hall 3, Hall 4 or any LT with Electricity, UniBen</p>
+                <p><img class="nav-icons" src="assets/contact.svg"> 08138931117</p>
+                <p><img class="nav-icons" src="assets/contact.svg"> <a href="mailto:campusbuyinfo@gmail.com">campusbuyinfo@gmail.com</a></p>
+            </div>
+            <div class="legal">
+                <h3>Legal</h3>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">License</a></li>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
